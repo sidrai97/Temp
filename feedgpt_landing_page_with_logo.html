@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FeedGPT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: black;
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-section img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .logo {
+      font-size: 24px;
+      color: #0076b6;
+      font-weight: bold;
+    }
+
+    .header-icons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .header-icons i {
+      font-size: 20px;
+      cursor: pointer;
+      color: black;
+    }
+
+    .main-title {
+      margin-top: 50px;
+      font-size: 32px;
+      color: #0076b6;
+    }
+
+    .search-container {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    input[type="text"] {
+      width: 40%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #0076b6;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .sample-prompts {
+      margin-top: 40px;
+    }
+
+    .prompt {
+      display: inline-block;
+      background-color: #f2f2f2;
+      margin: 10px;
+      padding: 12px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      color: black;
+    }
+
+    .prompt:hover {
+      background-color: #e0e0e0;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-section">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Barclays_logo.svg/2560px-Barclays_logo.svg.png" alt="Barclays Logo" />
+      <div class="logo">FeedGPT</div>
+    </div>
+    <div class="header-icons">
+      <i>&#9881;</i>
+      <i>&#128100;</i>
+    </div>
+  </header>
+
+  <h1 class="main-title">Search Feed Information Instantly</h1>
+
+  <div class="search-container">
+    <input type="text" placeholder="Ask me about any feed’s SLA, contacts, or escalation points..." />
+    <button>Search</button>
+  </div>
+
+  <div class="sample-prompts">
+    <div class="prompt">What’s the SLA for Feed XYZ?</div>
+    <div class="prompt">Who should I contact for Feed ABC issues?</div>
+    <div class="prompt">Show escalation contacts for Feed LMN</div>
+    <div class="prompt">List feeds consumed by Application QRS</div>
+  </div>
+
+  <footer>
+    © 2025 FeedGPT - All rights reserved.
+  </footer>
+
+</body>
+</html>
